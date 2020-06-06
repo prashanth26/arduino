@@ -62,5 +62,14 @@ void loop(){
 - Reads any value between (0-1024)
 - OP: 1023
 
-
-
+## Arduino Tutorial 11: Understanding the Arduino Serial Port and Print Commands
+- Print command
+  ```
+    Serial.begin(9600);
+    
+    Serial.println(j);
+    j=j+1;
+    delay(740)
+  ```
+- Baud rate in terminal has to be same as serial monitor 
+- 
