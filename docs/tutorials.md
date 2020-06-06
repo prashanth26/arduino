@@ -29,4 +29,38 @@
 - setup() - `pinMode(redPin, OUTPUT)`
 - loop() - `analogWrite(redPin, 255)`
 
-##
+## Arduino Tutorial 8: Understanding Pulse Width Modulation (PWM) and the Arduino Analog Write Command
+- Pulse modulation
+- In Arduino, the analogue modulation for 5V to 2.5V is done using 4 periods alternating between low and high
+- If you want pure analogue voltage, you put a capacitor across (in this case 1000microF capacitor)
+
+## Arduino Tutorial 9: Understanding Ohm's Law and Simple Circuit Design
+- Circuit analysis
+- V = IR
+- In series
+  - RE = R1 + R2
+  - V1 = I * R1
+  
+## Arduino Tutorial 10: Understanding How To Read Analog Voltage using analogRead Command
+- Reading from Analog pin
+```
+int readPin=A3;
+int v2=0;
+int delayTime=500;
+
+void setup() {
+  pinMode(readPin, INPUT);
+  Serial.begin(9600); // Setting serial monitor
+}
+
+void loop(){
+  v2 = analogRead(readPin);
+  Serial.println(v2); // Reads any value between (0-1024)
+  delay(delayTime);
+}
+```
+- Reads any value between (0-1024)
+- OP: 1023
+
+
+
