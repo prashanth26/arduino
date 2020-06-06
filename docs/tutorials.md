@@ -12,3 +12,21 @@
 
 ## Arduino Tutorial 3: Understanding How Breadboards Work
 - Always use 330 ohm resistance in series with LED of 5V
+
+## Arduino Tutorial 4: Understanding Arduino Variables
+- Always use variables instead of literals (strings, numbers)
+
+## Arduino Tutorial 5: Understanding and Working With Binary Numbers
+- Anything in the world can be represent as a numbers
+- Numbers are then converted into binary
+
+## Arduino Tutorial 6: Build an LED Binary Counter
+- All negatives/ground are the same
+- Ground can be shared
+
+## Arduino Tutorial 7: Understanding the Arduino Analog Write Command
+- You can adjust analog signals from 0-255
+- setup() - `pinMode(redPin, OUTPUT)`
+- loop() - `analogWrite(redPin, 255)`
+
+##
