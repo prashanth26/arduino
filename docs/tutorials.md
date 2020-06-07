@@ -72,4 +72,19 @@ void loop(){
     delay(740)
   ```
 - Baud rate in terminal has to be same as serial monitor 
-- 
+
+## Arduino Tutorial 12: Understanding Potentiometers
+- Variable resistor
+- Adjust knob to adjust resistance
+- 3 legs 
+- Potentiometer helps you to adjust the voltage from 0-5V
+- Reading value from potentiometer using Arduino
+
+## Arduino Tutorial 13: Understanding Arduino If Statements
+- if statement
+```
+if (condition) {
+}
+```
+
+## Arduino Tutorial 14: Dimmable LED Project
