@@ -88,3 +88,4 @@ if (condition) {
 ```
 
 ## Arduino Tutorial 14: Dimmable LED Project
+- Take the o/p from potentiometer above and put it into an analogue output
